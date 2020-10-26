@@ -29,19 +29,12 @@
     
     
     
-    dispatch_queue_t queue = dispatch_queue_create("com.demo.serialQueue",DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t queue = dispatch_get_main_queue();
     
-    NSLog(@"1");// 任务1
     dispatch_sync(queue,^{
-        sleep(1);
-        NSLog(@"2");// 任务2
-//        dispatch_sync(queue,^{
-//            NSLog(@"3");// 任务3
-//        });
-//        NSLog(@"4");// 任务4
+        NSLog(@"1---%@",[NSThread currentThread]);// 任务1
     });
-    sleep(0);
-    NSLog(@"5");// 任务5
+
 }
 - (void)doSomething1{
     /*
