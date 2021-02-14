@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24277FAF25923E550050E4AF /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24277FAE25923E550050E4AF /* AViewController.m */; };
+		24B923FF255AE7530016B7C7 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B923FE255AE7530016B7C7 /* Animal.m */; };
+		24B92409255AE8620016B7C7 /* Animal+eat.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B92408255AE8620016B7C7 /* Animal+eat.m */; };
+		24B9240D255AE8D70016B7C7 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B9240C255AE8D70016B7C7 /* Dog.m */; };
 		84590529254676A800306DFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84590528254676A800306DFD /* AppDelegate.m */; };
 		8459052F254676A800306DFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8459052E254676A800306DFD /* ViewController.m */; };
 		84590534254676AB00306DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84590533254676AB00306DFD /* Assets.xcassets */; };
@@ -14,6 +18,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24277FAD25923E550050E4AF /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		24277FAE25923E550050E4AF /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		24B923FD255AE7530016B7C7 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		24B923FE255AE7530016B7C7 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		24B92407255AE8620016B7C7 /* Animal+eat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+eat.h"; sourceTree = "<group>"; };
+		24B92408255AE8620016B7C7 /* Animal+eat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Animal+eat.m"; sourceTree = "<group>"; };
+		24B9240B255AE8D70016B7C7 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		24B9240C255AE8D70016B7C7 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		24B9240F255AE9F40016B7C7 /* Animal+dring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal+dring.h"; sourceTree = "<group>"; };
 		84590524254676A800306DFD /* learnProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84590527254676A800306DFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84590528254676A800306DFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +71,15 @@
 				84590528254676A800306DFD /* AppDelegate.m */,
 				8459052D254676A800306DFD /* ViewController.h */,
 				8459052E254676A800306DFD /* ViewController.m */,
+				24277FAD25923E550050E4AF /* AViewController.h */,
+				24277FAE25923E550050E4AF /* AViewController.m */,
+				24B923FD255AE7530016B7C7 /* Animal.h */,
+				24B923FE255AE7530016B7C7 /* Animal.m */,
+				24B92407255AE8620016B7C7 /* Animal+eat.h */,
+				24B92408255AE8620016B7C7 /* Animal+eat.m */,
+				24B9240F255AE9F40016B7C7 /* Animal+dring.h */,
+				24B9240B255AE8D70016B7C7 /* Dog.h */,
+				24B9240C255AE8D70016B7C7 /* Dog.m */,
 				84590533254676AB00306DFD /* Assets.xcassets */,
 				84590538254676AB00306DFD /* Info.plist */,
 				84590539254676AB00306DFD /* main.m */,
@@ -132,7 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B9240D255AE8D70016B7C7 /* Dog.m in Sources */,
+				24277FAF25923E550050E4AF /* AViewController.m in Sources */,
 				8459052F254676A800306DFD /* ViewController.m in Sources */,
+				24B923FF255AE7530016B7C7 /* Animal.m in Sources */,
+				24B92409255AE8620016B7C7 /* Animal+eat.m in Sources */,
 				84590529254676A800306DFD /* AppDelegate.m in Sources */,
 				8459053A254676AB00306DFD /* main.m in Sources */,
 			);
@@ -261,7 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68USQN444E;
 				INFOPLIST_FILE = learnProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -280,7 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68USQN444E;
 				INFOPLIST_FILE = learnProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

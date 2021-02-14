@@ -9,6 +9,8 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,strong) UILabel *nameLbl;
+
 
 @end
 
